@@ -1,95 +1,112 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Help Me Make My Son's Birthday Unforgettable</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background: #fefefe;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            padding: 30px;
-            background: #ffffff;
-            border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        }
-        h1 {
-            font-size: 24px;
-            color: #d63031;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-        .wallet {
-            margin: 20px 0;
-            background: #f1f2f6;
-            padding: 10px;
-            border-radius: 10px;
-            font-family: monospace;
-        }
-        .qr {
-            margin: 20px 0;
-        }
-        .donate-btn {
-            background-color: #00b894;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 8px;
-            display: inline-block;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-        .footer {
-            margin-top: 30px;
-            font-size: 14px;
-            color: #888;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help Me Surprise My Son</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f7f9fb;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #333;
+      animation: fadeIn 2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .container {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 500px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: #2c3e50;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    .crypto-icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 1rem;
+    }
+    .crypto-icons img {
+      width: 32px;
+      height: 32px;
+    }
+    .qr {
+      margin: 1.5rem 0;
+    }
+    .donate-btn {
+      background: #1abc9c;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .donate-btn:hover {
+      background: #16a085;
+    }
+    .counter {
+      margin-top: 1rem;
+      font-weight: bold;
+      color: #27ae60;
+    }
+    .footnote {
+      font-size: 0.85rem;
+      color: #777;
+      margin-top: 1.5rem;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎁 Help Me Make My Son's Birthday Unforgettable 🎉</h1>
-        <p>I'm a father going through some tough financial times, and I have a humble dream:<br>
-        To surprise my son on his upcoming birthday — just 2 months away — with a <strong>smartphone and a PlayStation 5</strong>.<br>
-        He's been dreaming of it for so long. I’ve promised him I’d try my best.</p>
+  <div class="container">
+    <h1>Help Me Surprise My Son on His Birthday</h1>
+    <p>My son is turning 8 in just two months. He’s dreaming of a PS5 and a smartphone — simple things for many, but a big deal for us right now.
+    </p>
+    <p>I know this might be a small gesture for you, but even $1 means a world to us. Together, you can help me make his day unforgettable.
+    </p>
+    <p><strong>We don’t share personal photos or names to respect his privacy, and we hope you understand. ❤️</strong></p>
 
-        <p>I don’t want him to grow up believing that dreams never come true.</p>
-
-        <p>Even though I would love to share his smile, his name, or a photo, I choose not to — for <strong>personal and emotional reasons</strong>.
-        This is something I’m doing quietly, without telling him — and I want to keep it that way, private and special.</p>
-
-        <p>Even <strong>$1</strong> could mean the world to me — because it brings me one step closer to seeing that joy in his eyes.</p>
-
-        <div class="wallet">
-            Wallet (USDT - TRC20):<br>
-            TKRQ51BtSP94QJSWwUAfyvjbtDTBmAbRsr
-        </div>
-
-        <div class="qr">
-            <img src="qr.png" alt="QR Code" width="180">
-        </div>
-
-        <a class="donate-btn" href="https://tronscan.org/#/address/TKRQ51BtSP94QJSWwUAfyvjbtDTBmAbRsr" target="_blank">
-            Donate with Crypto
-        </a>
-
-        <div class="footer">
-            Thank you for reading. Your kindness means the world. ❤️
-        </div>
+    <div class="crypto-icons">
+      <img src="https://cryptologos.cc/logos/tether-usdt-logo.png" alt="USDT" />
+      <img src="https://cryptologos.cc/logos/tron-trx-logo.png" alt="TRON" />
     </div>
+
+    <div class="qr">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=TKRQ51BtSP94QJSWwUAfyvjbtDTBmAbRsr" alt="QR Code" />
+    </div>
+
+    <p><strong>TRC20 Wallet:</strong><br />TKRQ51BtSP94QJSWwUAfyvjbtDTBmAbRsr</p>
+
+    <a href="https://tronscan.org/#/address/TKRQ51BtSP94QJSWwUAfyvjbtDTBmAbRsr" target="_blank">
+      <button class="donate-btn">Donate with Crypto</button>
+    </a>
+
+    <div class="counter">
+      🎯 Goal: $1300 &nbsp;&nbsp;|&nbsp;&nbsp; 💚 Received: $0
+    </div>
+
+    <div class="footnote">
+      "You might forget this $1 tomorrow, but we’ll remember it forever."
+    </div>
+  </div>
 </body>
 </html>
